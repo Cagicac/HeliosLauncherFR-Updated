@@ -65,6 +65,7 @@ Pour ouvrir la console, utilise le raccourci clavier suivant.
 
 ```console
 ctrl + shift + i
+```
 
 Assure-toi que l’onglet console est sélectionné. Ne colle rien dans la console sauf si tu es sûr à 100 % de ce que cela va faire. Coller la mauvaise chose peut exposer des informations sensibles.
 
@@ -81,12 +82,15 @@ Configuration requise
 	•	Node.js￼ v22
 
 **Cloner et installer les dépendances**
+```
 > git clone https://github.com/dscalzi/HeliosLauncher.git
 > cd HeliosLauncher
 > npm install
+```
 
 **Lancer l’application**
-> npm start
+```> npm start
+```
 
 **Construire les installateurs**
 
@@ -108,7 +112,7 @@ Visual Studio Code
 Tout le développement du launcher doit être fait avec Visual Studio Code￼.
 
 Colle ce qui suit dans .vscode/launch.json
-
+```
 {
   "version": "0.2.0",
   "configurations": [
@@ -137,6 +141,7 @@ Colle ce qui suit dans .vscode/launch.json
     }
   ]
 }
+```
 Cela ajoute deux configurations de débogage.
 
 Déboguer le processus principal
