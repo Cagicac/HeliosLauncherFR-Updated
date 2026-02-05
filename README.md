@@ -29,7 +29,11 @@
   * Passe facilement d’une configuration de serveur à une autre.
   * Consulte le nombre de joueurs du serveur sélectionné.
 * Mises à jour automatiques. Oui, le launcher se met à jour tout seul.
-* Affiche l’état des services Mojang.
+
+## Fonctionnalités Ajouté par Cagicac
+* Retrait des fonctionnalités Mojang, tel que le status du serveur et la connection à un compte Mojang.
+* Traduction de toute l'interface en Français.
+
 
 Cette liste n’est pas exhaustive. Télécharge et installe le launcher pour découvrir tout ce qu’il peut faire !
 
